@@ -1,1 +1,1 @@
-# deploy-nodejs-app-to-EKS-using-GitHub-Actions
+# deploy-app-eks-githubactions
