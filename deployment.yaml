@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodeapp
-          image: 176768607918.dkr.ecr.us-east-1.amazonaws.com/github-nodejs:nodeapp-v1
+          image: 176768607918.dkr.ecr.ap-south-1.amazonaws.com/github-nodejs:nodeapp
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
