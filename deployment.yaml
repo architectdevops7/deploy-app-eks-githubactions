@@ -15,8 +15,8 @@ spec:
         app: nodejs
     spec:
       containers:
-        - name: devopshint
-          image: <image-url>
+        - name: nodeapp
+          image: 176768607918.dkr.ecr.us-east-1.amazonaws.com/github-nodejs:nodeapp-v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
